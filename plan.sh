@@ -8,6 +8,8 @@ pkg_shasum="N/A"
 pkg_deps=(core/coreutils core/php core/which)
 pkg_build_deps=(core/composer)
 pkg_bin_dirs=(bin/vendor/bin)
+pkg_upstream_url="http://www.drush.org/en/master/"
+pkg_description="Drush is a command line shell and Unix scripting interface for Drupal."
 
 do_download() {
     return 0
