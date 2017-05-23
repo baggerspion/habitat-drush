@@ -9,18 +9,6 @@ pkg_bin_dirs=(bin/vendor/bin)
 pkg_upstream_url="http://www.drush.org/en/master/"
 pkg_description="Drush is a command line shell and Unix scripting interface for Drupal."
 
-do_download() {
-    return 0
-}
-
-do_verify() {
-    return 0
-}
-
-do_unpack() {
-    return 0
-}
-
 do_build() {
     composer global require drush/drush:8.*
 }
